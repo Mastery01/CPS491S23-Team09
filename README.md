@@ -15,6 +15,7 @@ CPS 490 - Fall 2022
 
 # Project Topic
 Robotics Web server hosted by Raspberry Pi
+PiCreate
 
 # Team members
 
@@ -42,20 +43,24 @@ https://github.com/Mastery01/CPS491S23-Team09
 # Overview
 
 For CPS 491 Capstone II we will be creating a web interface that will be hosted by a Raspberry PI.
-We are creating this to help the robotics department with their in class demonstrations with the
+We are creating this to help the robotics department with demonstrations with the
 iRobot Roomba without having to interject code. In doing so at the end of this project there will be
-a web interface that will act as a simple control on a server with game like functionality on
-order to generate interest in robotics.
+a web interface that will act as a simple control on a web server that allows control outside of the 
+robotics labatory. To enter and utilize the lab, students must sign contracts but without a contract 
+prospective students dont often get to see or use the IRobot's. The webserver allows a user to control the IRobot outside of the classroom while the IRobot is driving inside the laboratory.
 
 ![Overview Architecture](https://iili.io/Hoh0kQV.md.png "A overview of a proposed 4-layer Architecture")
 
 Figure 1. - A Sample of Overview Architecture of the proposed project.
 
 # Project Context and Scope
-This Robotics web interface will be used within the University of Dayton Robotics Lab run by Dr.Nicholas Stiffler.
+This Robotics web interface will be used within the University of Dayton Robotics Lab run by Dr. Nicholas Stiffler.
 The motivation behind this project is to increase undergraduates students interest in robotics. As this project will
 be used within the University of Dayton CPS 499 Robotics class. The students in the CPS 499 Robotics class will interact
-with the web interface in order to program the Roomba robots
+with the web interface in order to program the Roomba robots. 
+Having a way to control the robots for students interested in robotics or for prospective students on 
+tours can create interest previously not available. 
+The Robotics lab can benefit from the project as we hope our project can generate interest in Robotics.
 
 ## Public Facing Website
 Just a demo page for a Bitbucket homepage.
@@ -67,11 +72,11 @@ A video demo will be included.
 
 # High-level Requirements
 
-1. Users will be able to log in to the web page
+1. Users will be able to connect to the IRobot via a serial interface
 2. Users will be able to interact with a web page that will connect to the robot
 3. Web page will have buttons that users can use to control the Roomba
 4. Users will be able to control the Roomba using arrow buttons on a website
-5. Users will be able to conduct a simple wall following by controlling the Roomba using arrow keys on the web page
+5. Users will be able to drive the IRobot without physically being in the room
 
 # Technology
 For this project we will be using multiple development tools
